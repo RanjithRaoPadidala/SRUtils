@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		8823CA952B079C3200729E2F /* SRUtils.docc in Sources */ = {isa = PBXBuildFile; fileRef = 8823CA942B079C3200729E2F /* SRUtils.docc */; };
 		8823CA962B079C3200729E2F /* SRUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 8823CA932B079C3200729E2F /* SRUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8823CA9D2B079EF800729E2F /* SRUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8823CA9C2B079EF800729E2F /* SRUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8823CA902B079C3200729E2F /* SRUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SRUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8823CA932B079C3200729E2F /* SRUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SRUtils.h; sourceTree = "<group>"; };
 		8823CA942B079C3200729E2F /* SRUtils.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SRUtils.docc; sourceTree = "<group>"; };
+		8823CA9C2B079EF800729E2F /* SRUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +51,7 @@
 			children = (
 				8823CA932B079C3200729E2F /* SRUtils.h */,
 				8823CA942B079C3200729E2F /* SRUtils.docc */,
+				8823CA9C2B079EF800729E2F /* SRUtils.swift */,
 			);
 			path = SRUtils;
 			sourceTree = "<group>";
@@ -132,6 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8823CA9D2B079EF800729E2F /* SRUtils.swift in Sources */,
 				8823CA952B079C3200729E2F /* SRUtils.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
