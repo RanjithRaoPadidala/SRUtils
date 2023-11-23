@@ -26,4 +26,17 @@ extension String {
     var removeSpace: String {
         return self.replacingOccurrences(of: " ", with: "")
     }
+    
+    /// this function will return a string in pascal case.
+    func pascalCase() -> String {
+        let components = self.components(separatedBy: CharacterSet(charactersIn: "_- "))
+        let pascalCaseString = components.map { $0.capitalized }.joined()
+        return pascalCaseString
+    }
+    /// this function will return each word in pascal case format from a sentance
+    func pascalCaseWords() -> String {
+        let components = self.components(separatedBy: CharacterSet.whitespacesAndNewlines)
+        let pascalCaseString = components.map { $0.capitalized }.joined(separator: " ")
+        return pascalCaseString
+    }
 }
